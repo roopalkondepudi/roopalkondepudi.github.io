@@ -1,0 +1,161 @@
+.topbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menuOption {
+    background-color: white;
+    border: 0;
+}
+
+.parallaxImage3 {
+    margin-top: 50px;
+    background-image: url("images/image3.png");
+
+    height: 500px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 50px;
+}
+
+.container {
+    position: relative;
+    color: white;
+    padding-right: 50px;
+}
+
+.title {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+    top: 270px;
+    left: 135px;
+    text-align: center;
+}
+
+.discover {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#names {
+    font-size: small;
+}
+
+.parallaxImage2 {
+    background-image: url("images/image2.png");
+
+    height: 500px;
+    width: 90%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+}
+
+.bottombar {
+    background-color: rgb(171, 148, 91);
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-left: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+}
+
+.consult {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.containerGallery {
+    position: relative;
+    color: white;
+    padding-right: 50px;
+}
