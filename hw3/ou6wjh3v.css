@@ -3,6 +3,12 @@ html, body {
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .topbar {
     background-color: white;
     display: flex;
@@ -46,7 +52,7 @@ a {
     color: rgb(104, 90, 49);
 }
 
-.parallaxImage1, .parallaxImage2, .parallaxImage3 {
+.parallaxImage2, .parallaxImage3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,53 +73,68 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: xx-large;
     letter-spacing: 0.5em;
     text-align: center;
 }
 
-.services {
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;    
     background-color: white;
-    padding: 50px;
+    padding: 50px 0px 50px;
 }
 
-.container {
-    position: relative;
+.services {
+    background-image: url("images/flower.png");
+    height: 70vh;
+    width: 27vw;
+    background-position: center;
+    margin-right: 5vw;
+
+    /*text*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
-    padding-right: 50px;
+    text-align: center;
 }
 
 .title {
-    position: absolute;
-    top: 150px;
-    left: 150px;
-    text-align: center;
+    margin-top: 15vh;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.75em;
+    font-size: large;
 }
 
 .info {
-    position: absolute;
-    top: 270px;
-    left: 135px;
-    text-align: center;
+    margin-top: 15vh;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.15em;
 }
 
 .discover {
+    background-color: transparent;
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: absolute;
-    top: 400px;
-    left: 130px;
+    padding: 1.5vh 10vh 1.5vh 10vh;
+    margin-top: 7vh;
+
+    /* text */
     text-align: center;
+    color: white;
+    font-size: small;
 }
+
+.image1 {
+    width: 45vw;
+    height: 70vh;
+}
+
 
 .testimonial {
     display: flex;
@@ -135,6 +156,7 @@ a {
     width: 90%;
 
     /* parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
