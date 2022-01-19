@@ -12,14 +12,14 @@ html, body {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 8vh;
+    height: 10vh;
 }
 
 #mainevents {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     color: rgb(174, 153, 97);
-    padding-left: 10vw;
+    padding-left: 5vw;
 }
 
 .menu {
@@ -46,23 +46,31 @@ a {
     color: rgb(104, 90, 49);
 }
 
-.parallaxImage3 {
-    margin-top: 50px;
-    background-image: url("images/image3.png");
-
-    height: 500px;
-    width: 100%;
-
-    /* parallax scrolling effect */
+.parallaxImage1, .parallaxImage2, .parallaxImage3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-    margin: none;
+    background-size: auto;
+}
 
+.parallaxImage3 {
+    background-image: url("images/image3.png");
+
+    height: 750px;
+    width: 100vw;
+
+    object-fit: cover;
+    object-position: 0 50%;
+
+    /* text */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 0.5em;
+    text-align: center;
 }
 
 .services {
@@ -130,7 +138,7 @@ a {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 
     display: flex;
     flex-direction: row;
