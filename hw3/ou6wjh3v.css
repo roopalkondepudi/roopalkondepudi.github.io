@@ -123,7 +123,7 @@ a {
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    padding: 1.5vh 10vh 1.5vh 10vh;
+    padding: 1.5vh 5vw 1.5vh 5vw;
     margin-top: 7vh;
 
     /* text */
@@ -168,7 +168,7 @@ a {
     background-image: url("images/image2.png");
 
     height: 80vh;
-    width: 80vw;
+    width: 85vw;
 
     /* parallax scrolling effect */
 
@@ -200,49 +200,59 @@ a {
 
 .bottombar {
     background-color: rgb(171, 148, 91);
-    padding: 50px;
-    margin: 50px;
+    
+    width: 85vw;
+    height: 10vh;
+
+    margin: 10vh 30vw 10vh 30vw;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+
+    /* text */
     display: flex;
     flex-direction: row;
     color: white;
     justify-content: space-between;
+    align-items: center;
 }
 
 .contact {
     display: flex;
     flex-direction: row;
+    margin-left: 5vw;
+    align-items: flex-start;
 }
 
-.address {
+.address, .telephone, .copyright {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: smaller;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
-.telephone {
-    display: flex;
-    flex-direction: column;
-}
-
-.copyright {
-    display: flex;
-    flex-direction: column;
-}
 
 .line {
-    border-left: 2px solid white;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 100px;
+    border-left: 1px solid white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    height: 60px;
 }
 
 .consult {
+    background-color: transparent;
     border-style: solid;
     border-color: white;
     border-width: 1px;
-}
 
-.containerGallery {
-    position: relative;
+    margin-right: 10vw;
+    padding: 2vh 2vw 2vh 2vw;
+
+    /* text */
+    text-align: center;
     color: white;
-    padding-right: 50px;
+    font-size: small;
 }
