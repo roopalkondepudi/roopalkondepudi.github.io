@@ -113,7 +113,9 @@ a {
 .info {
     margin-top: 15vh;
     font-family: 'EB Garamond', serif;
+    font-size: larger;
     letter-spacing: 0.15em;
+    line-height: 2;
 }
 
 .discover {
@@ -144,7 +146,6 @@ a {
 #quote {
     font-family: 'Ruge Boogie', cursive;
     font-size: 100px;
-    margin-top: -2vh;
 }
 
 #editText {
@@ -158,15 +159,15 @@ a {
 #names {
     font-family: 'Roboto', sans-serif;
     color: rgb(174, 153, 97);
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     font-weight: bolder;
 }
 
 .parallaxImage2 {
     background-image: url("images/image2.png");
 
-    height: 500px;
-    width: 90%;
+    height: 80vh;
+    width: 80vw;
 
     /* parallax scrolling effect */
 
@@ -178,7 +179,22 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery {
+    background-image: url("images/flower.png");
+    height: 70vh;
+    width: 27vw;
+    background-position: center;
+    margin-right: 5vw;
+
+    /*text*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
+    text-align: center;
 }
 
 .bottombar {
