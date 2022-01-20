@@ -84,7 +84,7 @@ a {
     flex-direction: row;
     justify-content: center;
     background-color: white;
-    padding: 50px 0px 50px;
+    padding: 50px 0px 50px 0px;
 }
 
 .services {
@@ -135,18 +135,31 @@ a {
     height: 70vh;
 }
 
-
 .testimonial {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: x-large;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+}
+
+#quote {
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 100px;
+    margin-top: -2vh;
+}
+
+#editText {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    margin-top: -20vh;
+    text-align: center;
+    letter-spacing: 0.2em;
 }
 
 #names {
-    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(174, 153, 97);
+    margin-bottom: 10vh;
+    font-weight: bolder;
 }
 
 .parallaxImage2 {
