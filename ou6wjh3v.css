@@ -4,42 +4,34 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .topbar {
     background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     top: 0;
-    width: 100vw;
-    height: 10vh;
+    width: 1300px;
+    height: 70px;
 }
 
 #mainevents {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     color: rgb(174, 153, 97);
-    padding-left: 5vw;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: inline-block;
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 2vw;
+#home {
+    margin-left: 700px;
 }
 
 .menuOption {
     background-color: white;
     border: 0;
-    padding-right: 3vw;
-    padding-left: 1vw;
+    padding-right: 30px;
 }
 
 a {
@@ -63,15 +55,12 @@ a {
     background-image: url("images/image3.png");
 
     height: 750px;
-    width: 100vw;
+    width: 1300px;
 
     object-fit: cover;
     object-position: 0 50%;
 
     /* text */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-family: 'EB Garamond', serif;
     font-size: xx-large;
@@ -80,9 +69,6 @@ a {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     background-color: white;
     padding: 50px 0px 50px 0px;
 }
@@ -95,8 +81,6 @@ a {
     margin-right: 5vw;
 
     /*text*/
-    display: flex;
-    flex-direction: column;
     align-items: center;
     color: white;
     text-align: center;
@@ -138,8 +122,6 @@ a {
 }
 
 .testimonial {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin-top: -5vh;
 }
@@ -177,9 +159,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -191,9 +170,6 @@ a {
     margin-right: 5vw;
 
     /*text*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: white;
     text-align: center;
 }
@@ -209,23 +185,15 @@ a {
     padding-bottom: 7.5vh;
 
     /* text */
-    display: flex;
-    flex-direction: row;
     color: white;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .contact {
-    display: flex;
-    flex-direction: row;
     margin-left: 5vw;
-    align-items: flex-start;
 }
 
 .address, .telephone, .copyright {
-    display: flex;
-    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     font-size: smaller;
