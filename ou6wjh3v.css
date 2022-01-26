@@ -4,34 +4,42 @@ html, body {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .topbar {
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
-    width: 1300px;
-    height: 70px;
+    width: 100vw;
+    height: 10vh;
 }
 
 #mainevents {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     color: rgb(174, 153, 97);
-    margin-left: 100px;
-    margin-top: 30px;
-    display: inline-block;
+    padding-left: 5vw;
 }
 
-#home {
-    margin-left: 700px;
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2vw;
 }
 
 .menuOption {
     background-color: white;
     border: 0;
-    padding-right: 30px;
+    padding-right: 3vw;
+    padding-left: 1vw;
 }
 
 a {
@@ -55,11 +63,15 @@ a {
     background-image: url("images/image3.png");
 
     height: 750px;
-    width: 1300px;
+    width: 100vw;
 
     object-fit: cover;
+    object-position: 0 50%;
 
     /* text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-family: 'EB Garamond', serif;
     font-size: xx-large;
@@ -67,49 +79,43 @@ a {
     text-align: center;
 }
 
-#creatingMemories {
-    padding-top: 250px;
-}
-
 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: white;
+    padding: 50px 0px 50px 0px;
 }
 
 .services {
-    display: inline-block;
     background-image: url("images/flower.png");
-    margin-left: 50px;
-    height: 500px;
-    width: 350px;
+    height: 70vh;
+    width: 27vw;
     background-position: center;
+    margin-right: 5vw;
 
     /*text*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
+    text-align: center;
 }
 
 .title {
-    margin-top: 70px;
+    margin-top: 15vh;
     font-family: 'Mulish', sans-serif;
     font-weight: bolder;
     letter-spacing: 0.75em;
     font-size: large;
-    margin-left: 90px;
 }
 
 .info {
-    margin-top: 130px;
-    margin-left: 80px;
+    margin-top: 15vh;
     font-family: 'EB Garamond', serif;
     font-size: larger;
     letter-spacing: 0.15em;
-}
-
-#reality {
-    margin-top: 10px;
-    margin-left: 150px;
-    font-family: 'EB Garamond', serif;
-    font-size: larger;
-    letter-spacing: 0.15em;
+    line-height: 2;
 }
 
 .discover {
@@ -117,9 +123,8 @@ a {
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    margin-top: 30px;
-    margin-left: 110px;
-    padding: 10px 30px 10px 30px;
+    padding: 1.5vh 5vw 1.5vh 5vw;
+    margin-top: 7vh;
 
     /* text */
     text-align: center;
@@ -133,6 +138,8 @@ a {
 }
 
 .testimonial {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: -5vh;
 }
@@ -140,7 +147,6 @@ a {
 #quote {
     font-family: 'Ruge Boogie', cursive;
     font-size: 100px;
-    text-align: center;
 }
 
 #editText {
@@ -154,9 +160,8 @@ a {
 #names {
     font-family: 'Roboto', sans-serif;
     color: rgb(174, 153, 97);
-    margin-bottom: 30px;
+    margin-bottom: 20vh;
     font-weight: bolder;
-    text-align: center;
 }
 
 .parallaxImage2 {
@@ -172,6 +177,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -183,6 +191,9 @@ a {
     margin-right: 5vw;
 
     /*text*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     text-align: center;
 }
@@ -198,15 +209,23 @@ a {
     padding-bottom: 7.5vh;
 
     /* text */
+    display: flex;
+    flex-direction: row;
     color: white;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact {
+    display: flex;
+    flex-direction: row;
     margin-left: 5vw;
+    align-items: flex-start;
 }
 
 .address, .telephone, .copyright {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     font-size: smaller;
