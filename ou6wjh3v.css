@@ -168,13 +168,7 @@ a {
     height: 650px;
     width: 1040px;
 
-    /* parallax scrolling effect */
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    /* parallax scrolling effect */ 
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
